@@ -4,11 +4,11 @@ namespace Serwis.Infrastructure.HostedServices.BackgroundWorker
 {
     public class Serwis1 : ASheduledService
     {
-        private readonly IMojeRepo _sotRepo;
+        private readonly IMojeRepo _serwisRepo;
 
-        public Serwis1(IMojeRepo sotRepo)
+        public Serwis1(IMojeRepo serwisRepo)
         {
-            _sotRepo = sotRepo;
+            _serwisRepo = serwisRepo;
         }
 
 
